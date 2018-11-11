@@ -1,0 +1,45 @@
+body{
+    font-size: 20;
+    background-color: gray;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family:  Helvetica, sans-serif;
+}
+.subtitle{
+    font-weight: 800;
+}
+section.content{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 5px solid darkgray;
+}
+p.p1{
+    float:left;
+}
+.pic{
+    padding: 5;
+    border: 1px solid darkgray;
+    float:right;    
+}
+header .name{
+    font-style: italic;
+    font-size: 50;
+}
+header{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.reference{
+    padding: 20px;
+    text-align: center;
+    color: darkgray;
+}
+a:link{
+    color: aqua;
+}
