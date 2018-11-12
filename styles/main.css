@@ -1,22 +1,27 @@
 body{
     font-size: 20;
-    background-color: gray;
+    background-color: rgb(75, 75, 75);
     color: white;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    font-family:  Helvetica, sans-serif;
 }
 .subtitle{
     font-weight: 800;
 }
+.subtitle2{
+    text-transform: uppercase;
+    color: rgb(187, 169, 169);
+}
+
 section.content{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
     border: 5px solid darkgray;
+    font-family:  Helvetica, sans-serif;
 }
 p.p1{
     float:left;
@@ -42,4 +47,10 @@ header{
 }
 a:link{
     color: aqua;
+}
+a:visited{
+    color:aqua;
+}
+body span{
+    color:rgb(187, 169, 169);
 }
